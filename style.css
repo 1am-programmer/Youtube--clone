@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top{
+    display: inline-flex;
+}
+
+i{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+input{
+    padding: 5px 600px 5px 10px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 13px;
+}
+input[type=search]{
+    font-size: 1rem;
+}
+
+.menu{
+    margin-top: 1.4rem;
+    flex: 25%;
+}
+li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.side-bar{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+/*The Videos*/
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.videos{
+    
+    flex: 75%;
+}
+
+.videos-1,.videos-2{
+    display: flex;
+}
+
+p{
+    font-weight: bolder;
+    text-align: left;
+    
+}
+iframe{
+    border-radius: 15px;
+    margin-right: 1.2rem;
+    margin-left: 1.5rem;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+}
+
+/*
+.iframe-1,.iframe2,.iframe-3{
+    
+}
+.iframe-4{
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.iframe-5{
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.iframe-6{
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
